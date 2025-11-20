@@ -3,6 +3,6 @@ export interface Pizzaria{
     name: string,
     description: string,
     price: number,
-    image: string
+    image: number | string // number para require(), string para URL
 }
 
